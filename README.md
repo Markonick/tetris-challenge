@@ -1,5 +1,13 @@
 # tetris-challenge
 
-ln -s main.py main
+In order to be able to run from the command line like:
 
-# tetris-challenge
+```
+./main < input.txt > output.txt 
+```
+
+Make sure you do a
+
+``` 
+ln -s main.py main
+```
